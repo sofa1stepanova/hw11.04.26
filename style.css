@@ -134,26 +134,39 @@ body {
 }
 
 @media (max-width: 700px) {
-    body {
-        flex-direction: column;
-    }
+    body {flex-direction: column;}
     
     .container {
         width: 100%;
         height: 33%;
     }
     
-    .frame {
-        border-radius: 15px;
-    }
+    .frame {border-radius: 15px;}
     
     #c2\.1\.1 {
         width: 50%;
         height: 100%;
     }
     
+    #f1 {background-image: url("./assets/f1p.jpg");}
+    
+    #f2 {background-image: url("./assets/f2p.jpg");}
+
+    #f3 {background-image: url("./assets/f8.jpg");}
+
+    #f4 {background-image: url("./assets/f4p.jpg");}
+
     #f6 {
+        height: 100%;
         font-size: 20px;
         padding: 16px;
     }
+
+    #f7 {height: 100%;}
+    
+    #f5 {display: none;}
+    
+    #f8 {display: none;}
+
+    #f9 {display: none;}
 }
